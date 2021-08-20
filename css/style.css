@@ -1,0 +1,56 @@
+body {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: rgb(34, 27, 24);
+}
+header {
+  background-color: rgb(170, 145, 145);
+}
+h1 {
+  color: rgb(34, 27, 24);
+  padding: 30px;
+}
+main {
+  padding: 30px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+.cards {
+}
+.cards-list a {
+  text-decoration: none;
+  color: #fff;
+  flex-basis: 40%;
+  background-color: rgb(170, 145, 145);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.case-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.case-card {
+  width: 250px;
+  height: 250px;
+  flex-basis: 23%;
+  border: 2px solid rgb(34, 27, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(311deg, #aa9191, #f6f3f3);
+}
+footer {
+  background-color: rgb(170, 145, 145);
+  padding: 30px;
+}
+.author-name {
+  color: #fff;
+}
