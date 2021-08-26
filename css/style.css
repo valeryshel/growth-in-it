@@ -14,14 +14,17 @@ h1 {
 main {
   padding: 30px;
 }
+.form-link {
+  font-size: 30px;
+  color: rgb(34, 27, 24);
+}
 .cards-list {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: space-evenly;
 }
-.cards {
-}
+
 .cards-list a {
   text-decoration: none;
   color: #fff;
